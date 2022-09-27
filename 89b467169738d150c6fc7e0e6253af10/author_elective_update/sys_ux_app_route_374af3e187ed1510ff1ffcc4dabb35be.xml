@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config>
+        <description/>
+        <fields>vehicleSysId</fields>
+        <icon/>
+        <name>Viewports</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>viewports</route_type>
+        <screen_type display_value="Viewports">eb4abba187ed1510ff1ffcc4dabb3529</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-26 15:32:55</sys_created_on>
+        <sys_id>374af3e187ed1510ff1ffcc4dabb35be</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Viewports</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_app_route_374af3e187ed1510ff1ffcc4dabb35be</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-26 16:06:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=374af3e187ed1510ff1ffcc4dabb35be"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</application>
+        <file_path/>
+        <instance_id>b097d6b5dbbc91583050ac44d49619cd</instance_id>
+        <instance_name>squashdemo</instance_name>
+        <name>sys_ux_app_route_374af3e187ed1510ff1ffcc4dabb35be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config>
+        <description/>
+        <fields>vehicleSysId</fields>
+        <icon/>
+        <name>Viewports</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>viewports</route_type>
+        <screen_type display_value="Viewports">eb4abba187ed1510ff1ffcc4dabb3529</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-26 15:32:55</sys_created_on>
+        <sys_id>374af3e187ed1510ff1ffcc4dabb35be</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Viewports</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_app_route_374af3e187ed1510ff1ffcc4dabb35be</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-26 16:06:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=374af3e187ed1510ff1ffcc4dabb35be"/>
+</record_update>]]></payload>
+        <payload_hash>781650336</payload_hash>
+        <record_name>Viewports</record_name>
+        <reverted_from/>
+        <source>ca74b3ee872dd510ff1ffcc4dabb355a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-29 17:41:34</sys_created_on>
+        <sys_id>f98437ee872dd510ff1ffcc4dabb35df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182eab1c3ee0000001</sys_recorded_at>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-29 17:41:34</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>398437eef42dd510cbc47c66381404df</update_guid>
+        <update_guid_history>398437eef42dd510cbc47c66381404df:0,33c13f2e592dd5100d91ce809746d3bf:566699936,2ff188791aed15103c0c18d090409536:326690708,9a81c0794fed15102c9b78d5a903a387:-331103317,13fabfe17eed1510bfb879ff5f5af006:326690708,c9ea3fe1c9ed15105797eb4af9ec0780:1902549935,c06af3e10fed15101df3b947d9c957c8:1694511402,774af3e19bed1510ba2a436ba8ba93c0:1803440043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-09-27 16:41:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>27bdd1f0ea144b989020b538392d8d10</sys_id>
+        <sys_metadata>374af3e187ed1510ff1ffcc4dabb35be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Viewports</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_scope_delete display_value="">103cf2a4751b4197883305011e105169</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_374af3e187ed1510ff1ffcc4dabb35be</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_374af3e187ed1510ff1ffcc4dabb35be">f98437ee872dd510ff1ffcc4dabb35df</sys_update_version>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-09-27 16:41:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

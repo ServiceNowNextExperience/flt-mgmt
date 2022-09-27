@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Viewports</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-26 15:32:54</sys_created_on>
+        <sys_id>eb4abba187ed1510ff1ffcc4dabb3529</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Viewports</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_screen_type_eb4abba187ed1510ff1ffcc4dabb3529</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-26 16:06:29</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=eb4abba187ed1510ff1ffcc4dabb3529"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</application>
+        <file_path/>
+        <instance_id>b097d6b5dbbc91583050ac44d49619cd</instance_id>
+        <instance_name>squashdemo</instance_name>
+        <name>sys_ux_screen_type_eb4abba187ed1510ff1ffcc4dabb3529</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Viewports</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-26 15:32:54</sys_created_on>
+        <sys_id>eb4abba187ed1510ff1ffcc4dabb3529</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Viewports</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_screen_type_eb4abba187ed1510ff1ffcc4dabb3529</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-26 16:06:29</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb4abba187ed1510ff1ffcc4dabb3529"/>
+</record_update>]]></payload>
+        <payload_hash>-1796759917</payload_hash>
+        <record_name>Viewports</record_name>
+        <reverted_from/>
+        <source>ca74b3ee872dd510ff1ffcc4dabb355a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-29 17:41:42</sys_created_on>
+        <sys_id>a38477ee872dd510ff1ffcc4dabb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182eab1dffa0000001</sys_recorded_at>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-29 17:41:42</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>ef8477ee1d2dd510a3ef10465ab806e3</update_guid>
+        <update_guid_history>ef8477ee1d2dd510a3ef10465ab806e3:0,10d17f2e5a2dd51074fb03c3631a402f:-1414378041,a7f14879eded151099aa332215680f6c:-1946614445,5e81c079d9ed1510c2deb1bc582dae83:407539251,ef4abba1a2ed1510caa0bf587d9c402b:-1946614445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-09-27 16:41:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>00fa971e615e442f816441ca7da06a19</sys_id>
+        <sys_metadata>eb4abba187ed1510ff1ffcc4dabb3529</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Viewports</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_scope_delete display_value="">103cf2a4751b4197883305011e105169</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_eb4abba187ed1510ff1ffcc4dabb3529</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_eb4abba187ed1510ff1ffcc4dabb3529">a38477ee872dd510ff1ffcc4dabb35e4</sys_update_version>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-09-27 16:41:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

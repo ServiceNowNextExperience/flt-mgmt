@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>GQL Test</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>gql-test</route_type>
+        <screen_type display_value="GQL Test">a483b3521b3819101363ff37dc4bcb9e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:11:33</sys_created_on>
+        <sys_id>e8837f521b3819101363ff37dc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GQL Test</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_app_route_e8837f521b3819101363ff37dc4bcb98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:11:33</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=e8837f521b3819101363ff37dc4bcb98"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</application>
+        <file_path/>
+        <instance_id>b097d6b5dbbc91583050ac44d49619cd</instance_id>
+        <instance_name>squashdemo</instance_name>
+        <name>sys_ux_app_route_e8837f521b3819101363ff37dc4bcb98</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>GQL Test</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>gql-test</route_type>
+        <screen_type display_value="GQL Test">a483b3521b3819101363ff37dc4bcb9e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:11:33</sys_created_on>
+        <sys_id>e8837f521b3819101363ff37dc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GQL Test</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_app_route_e8837f521b3819101363ff37dc4bcb98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:11:33</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8837f521b3819101363ff37dc4bcb98"/>
+</record_update>]]></payload>
+        <payload_hash>465945102</payload_hash>
+        <record_name>GQL Test</record_name>
+        <reverted_from/>
+        <source>83ea16c587e1d110ff1ffcc4dabb3568</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-24 19:19:40</sys_created_on>
+        <sys_id>310b5ac587e1d110ff1ffcc4dabb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d14bc56a0000001</sys_recorded_at>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-24 19:19:40</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>7d0b5ac573e1d11045d4adc5e4e31eee</update_guid>
+        <update_guid_history>7d0b5ac573e1d11045d4adc5e4e31eee:0,1fec18a028a55110bfba590807d4533b:-1866106512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-09-27 16:41:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>accc85a3eb714e3799fe59260aaf4e59</sys_id>
+        <sys_metadata>e8837f521b3819101363ff37dc4bcb98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GQL Test</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_scope_delete display_value="">103cf2a4751b4197883305011e105169</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_e8837f521b3819101363ff37dc4bcb98</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_e8837f521b3819101363ff37dc4bcb98">310b5ac587e1d110ff1ffcc4dabb35ef</sys_update_version>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-09-27 16:41:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
