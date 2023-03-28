@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">e426bbd087e15550bf924085dabb3598</macroponent>
+        <name>Create maintenance task</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+    const createTask = api.state.createTask;
+    //yeah this is a bit hacky
+    const isMaintReq = JSON.stringify(event.payload.data.output.data.GlideRecord_Mutation).indexOf('insert_x_snc_flt_mgmt_maint_req') > -1;
+
+    if (createTask && isMaintReq) {
+        const requestID = event.payload.data.output.data.GlideRecord_Mutation.insert_x_snc_flt_mgmt_maint_req.sys_id.value;
+        const user = api.context.session.user.sys_id;
+        const fields = `assigned_to=${user}^request=${requestID}^short_description=${api.state.shortDescription}`;
+        api.data.create_record_1.execute({
+            "table": "x_snc_flt_mgmt_maint_task",
+            "templateFields": fields,
+            "useSetDisplayValue": false
+        });
+    }
+    else {
+        api.setState('shortDescription', null);
+        api.setState('refreshList', {"timestamp":  new Date().getTime()});
+    }
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 19:34:45</sys_created_on>
+        <sys_id>6f4b48a087655550bf924085dabb357b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Create maintenance task</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_client_script_6f4b48a087655550bf924085dabb357b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 20:39:25</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</application>
+        <file_path/>
+        <instance_id>11e0e8fadb502d1452dd2f17d4961987</instance_id>
+        <instance_name>tiltnew</instance_name>
+        <name>sys_ux_client_script_6f4b48a087655550bf924085dabb357b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;
+    &lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;
+        &lt;includes/&gt;
+        &lt;macroponent display_value="Home"&gt;e426bbd087e15550bf924085dabb3598&lt;/macroponent&gt;
+        &lt;name&gt;Create maintenance task&lt;/name&gt;
+        &lt;required_translations&gt;[ ]&lt;/required_translations&gt;
+        &lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+    const createTask = api.state.createTask;
+    //yeah this is a bit hacky
+    const isMaintReq = JSON.stringify(event.payload.data.output.data.GlideRecord_Mutation).indexOf('insert_x_snc_flt_mgmt_maint_req') &gt; -1;
+
+    if (createTask &amp;&amp; isMaintReq) {
+        const requestID = event.payload.data.output.data.GlideRecord_Mutation.insert_x_snc_flt_mgmt_maint_req.sys_id.value;
+        const user = api.context.session.user.sys_id;
+        const fields = `assigned_to=${user}^request=${requestID}^short_description=${api.state.shortDescription}`;
+        api.data.create_record_1.execute({
+            "table": "x_snc_flt_mgmt_maint_task",
+            "templateFields": fields,
+            "useSetDisplayValue": false
+        });
+    }
+    else {
+        api.setState('shortDescription', null);
+        api.setState('refreshList', {"timestamp":  new Date().getTime()});
+    }
+    
+}]]&gt;&lt;/script&gt;
+        &lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;
+        &lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-08-22 19:34:45&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6f4b48a087655550bf924085dabb357b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Create maintenance task&lt;/sys_name&gt;
+        &lt;sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt"&gt;89b467169738d150c6fc7e0e6253af10&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Fleet Vehicle Management"&gt;89b467169738d150c6fc7e0e6253af10&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ux_client_script_6f4b48a087655550bf924085dabb357b&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-08-22 20:39:25&lt;/sys_updated_on&gt;
+        &lt;type&gt;default&lt;/type&gt;
+    &lt;/sys_ux_client_script&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-608266368</payload_hash>
+        <record_name>Create maintenance task</record_name>
+        <reverted_from/>
+        <source>0d3cb95a877de1509d930f65dabb3519</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 20:45:50</sys_created_on>
+        <sys_id>a89c31da877de1509d930f65dabb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18724d1efb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 20:45:50</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>689c31da317de1509db3e371599d18b2</update_guid>
+        <update_guid_history>689c31da317de1509db3e371599d18b2:-608266368</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-28 14:28:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2a884bc85d74486a87f9e5aef87841d9</sys_id>
+        <sys_metadata>6f4b48a087655550bf924085dabb357b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create maintenance task</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_scope_delete display_value="">103cf2a4751b4197883305011e105169</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_6f4b48a087655550bf924085dabb357b</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_6f4b48a087655550bf924085dabb357b">a89c31da877de1509d930f65dabb35b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-28 14:28:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

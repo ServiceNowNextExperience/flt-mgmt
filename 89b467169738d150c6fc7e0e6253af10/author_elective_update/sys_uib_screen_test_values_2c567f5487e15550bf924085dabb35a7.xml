@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{ }</macroponent_config>
+        <screen display_value="Home reference">ac26bbd087e15550bf924085dabb359a</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 18:03:04</sys_created_on>
+        <sys_id>2c567f5487e15550bf924085dabb35a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2c567f5487e15550bf924085dabb35a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 18:09:15</sys_updated_on>
+    </sys_uib_screen_test_values>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</application>
+        <file_path/>
+        <instance_id>11e0e8fadb502d1452dd2f17d4961987</instance_id>
+        <instance_name>tiltnew</instance_name>
+        <name>sys_uib_screen_test_values_2c567f5487e15550bf924085dabb35a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{ }</macroponent_config>
+        <screen display_value="Home reference">ac26bbd087e15550bf924085dabb359a</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 18:03:04</sys_created_on>
+        <sys_id>2c567f5487e15550bf924085dabb35a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2c567f5487e15550bf924085dabb35a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 18:09:15</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>]]></payload>
+        <payload_hash>-19686674</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0d3cb95a877de1509d930f65dabb3519</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 20:45:42</sys_created_on>
+        <sys_id>a68c3d9a877de1509d930f65dabb35e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18724d1cdea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 20:45:42</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>668c3d9a827de150598af55faeeacfe7</update_guid>
+        <update_guid_history>668c3d9a827de150598af55faeeacfe7:-19686674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-28 14:28:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>51e0290f12c64e3cb77d9af02b240ea4</sys_id>
+        <sys_metadata>2c567f5487e15550bf924085dabb35a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_scope_delete display_value="">103cf2a4751b4197883305011e105169</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_2c567f5487e15550bf924085dabb35a7</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_2c567f5487e15550bf924085dabb35a7">a68c3d9a877de1509d930f65dabb35e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-28 14:28:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
